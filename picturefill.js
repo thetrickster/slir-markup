@@ -6,7 +6,7 @@
 	"use strict";
 
 	w.picturefill = function() {
-		var ps = w.document.getElementsByTagName( "div" );
+		var ps = w.document.getElementsByTagName( "figure" );
 		
 		// Loop the pictures
 		for( var i = 0, il = ps.length; i < il; i++ ){
