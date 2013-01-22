@@ -18,7 +18,7 @@ Currently, `picturefill.js` compresses to around 498bytes (~0.5kb), after minify
 Mark up your responsive images like this. 
 
 ```html
-	<div data-picture data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
+	<figure data-picture data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
 		<div data-src="small.jpg"></div>
 		<div data-src="medium.jpg"     data-media="(min-width: 400px)"></div>
 		<div data-src="large.jpg"      data-media="(min-width: 800px)"></div>
@@ -28,7 +28,7 @@ Mark up your responsive images like this.
 		<noscript>
 			<img src="external/imgs/small.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
 		</noscript>
-	</div>
+	</figure>
 ```
 
 Each `div[data-src]` element’s `data-media` attribute accepts any and all CSS3 media queries—such as `min` or `max` width, or even `min-device-pixel-ratio` for HD (retina) displays. 
