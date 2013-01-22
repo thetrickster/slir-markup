@@ -1,11 +1,11 @@
-# Picturefill
+# SLIR Markup
 
-A Responsive Images approach that you can use today, that mimics the [proposed picture element](http://www.w3.org/community/respimg/wiki/Picture_Element_Proposal) using `div`s, for safety sake.
+A Responsive Images approach for HTML5, that mimics the [proposed picture element](http://www.w3.org/community/respimg/wiki/Picture_Element_Proposal) using `div`s, for safety sake.
 
 * Author: Scott Jehl (c) 2012
 * License: MIT/GPLv2
 
-**Demo URL:** [http://scottjehl.github.com/picturefill/](http://scottjehl.github.com/picturefill/)
+**Forked from:** [http://scottjehl.github.com/picturefill/](http://scottjehl.github.com/picturefill/)
 
 **Note:** Picturefill works best in browsers that support CSS3 media queries. It includes (externally) the [matchMedia polyfill](https://github.com/paulirish/matchMedia.js/) which makes matchMedia work in `media-query`-supporting browsers that don't have `matchMedia`, or at least allows media types to be tested in most any browser. `matchMedia` and the `matchMedia` polyfill are not required for `picturefill` to work, but they are required to support the `media` attributes on `picture` `source` elements.
 
